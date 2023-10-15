@@ -50,8 +50,8 @@ root = tk.Tk()
 root.title("Baby Name Generator")
 
 # Load male and female names
-male_names = load_names('Add the location of your saved csv file')
-female_names = load_names('Add the location of your saved csv file')
+male_names = load_names('Indian-Male-Names.csv')
+female_names = load_names('Indian-Female-Names.csv')
 
 # Create and configure GUI elements
 gender_label = tk.Label(root, text="Select Gender:")
